@@ -1,0 +1,100 @@
+html {
+    
+    min-height: 100%;
+}
+body{
+    margin-bottom: 60px;
+   
+    font-family: 'Noto Sans', Georgia, Helvetica, sans-serif;
+}
+
+
+  
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+ 
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+main  {
+    padding: 60px 15px 0;
+  }
+
+
+
+code {
+    font-size: 80%;
+}
+
+.table thead th.ASC:after,
+.table thead th.DESC:after
+{
+    content: '↑';
+    color: red;
+    font-weight: bold;
+   padding: 3px;
+}
+.table thead th.DESC:after {
+    content: '↓';
+}
+
+
+label {
+    color: #ffff;
+    padding:3px;
+    
+}
+input#orderBy input#search.form-control{
+    width: 10%;
+}
+
+.pagination {
+    margin-top:30px;
+
+}
+
+.pagination li.active .page-link {
+  cursor: default;
+
+}
+caption {
+  caption-side: top;
+  text-align: center;
+}
+
+
+
+#loginform {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #a2b9bc;
+ 
+  border-radius: 2px solid;
+  
+}
+#container {
+  
+  width: 60%;
+  height: 50%;
+  align-items: center;
+  margin: 50px auto;
+  border-radius: 2px solid;
+}
